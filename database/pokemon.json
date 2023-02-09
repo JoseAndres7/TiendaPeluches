@@ -1,0 +1,232 @@
+[
+    {
+        "name": "Pickachu",
+        "price": 100,
+        "image": "pickachu.png",
+        "description": "Pickachu is a cute pokemon"
+    },
+
+    {
+        "name": "Bulbasaur",
+        "price": 105,
+        "image": "bulbasaur.png",
+        "description": "Bulbasaur is a cute pokemon"
+    },
+
+    {
+        "name": "Charmander",
+        "price": 95,
+        "image": "charmander.png",
+        "description": "Charmander is a cute pokemon"
+    },
+
+    {
+        "name": "Squirtle",
+        "price": 90,
+        "image": "squirtle.png",
+        "description": "Squirtle is a cute pokemon"
+    },
+
+    {
+        "name": "Snorlax",
+        "price": 110,
+        "image": "snorlax.png",
+        "description": "Snorlax is a cute pokemon"
+    },
+
+    {
+        "name": "Ponyta",
+        "price": 80,
+        "image": "ponyta.png",
+        "description": "Ponyta is a cute pokemon"
+    },
+
+    {
+        "name": "Caterpie",
+        "price": 75,
+        "image": "caterpie.png",
+        "description": "Caterpie is a cute pokemon"
+    },
+
+    {
+        "name": "Pidgey",
+        "price": 70,
+        "image": "pidgey.png",
+        "description": "Pidgey is a cute pokemon"
+    },
+
+    {
+        "name": "Rattata",
+        "price": 70,
+        "image": "rattata.png",
+        "description": "Rattata is a cute pokemon"
+    },
+
+    {
+        "name": "Spearow",
+        "price": 70,
+        "image": "spearow.png",
+        "description": "Spearow is a cute pokemon"
+    },
+
+    {
+        "name": "Weedle",
+        "price": 70,
+        "image": "weedle.png",
+        "description": "Weedle is a cute pokemon"
+    },
+
+    {
+        "name": "Zubat",
+        "price": 70,
+        "image": "zubat.png",
+        "description": "Zubat is a cute pokemon"
+    },
+
+    {
+        "name": "Ekans",
+        "price": 70,
+        "image": "ekans.png",
+        "description": "Ekans is a cute pokemon"
+    },
+
+    {
+        "name": "Sandshrew",
+        "price": 70,
+        "image": "sandshrew.png",
+        "description": "Sandshrew is a cute pokemon"
+    },
+
+    {
+        "name": "Nidoran",
+        "price": 70,
+        "image": "nidoran.png",
+        "description": "Nidoran is a cute pokemon"
+    },
+
+    {
+        "name": "Clefairy",
+        "price": 70,
+        "image": "clefairy.png",
+        "description": "Clefairy is a cute pokemon"
+    },
+
+    {
+        "name": "Vulpix",
+        "price": 70,
+        "image": "vulpix.png",
+        "description": "Vulpix is a cute pokemon"
+    },
+
+    {
+        "name": "Jigglypuff",
+        "price": 70,
+        "image": "jigglypuff.png",
+        "description": "Jigglypuff is a cute pokemon"
+    },
+
+    {
+        "name": "Oddish",
+        "price": 70,
+        "image": "oddish.png",
+        "description": "Oddish is a cute pokemon"
+    },
+
+    {
+        "name": "Meowth",
+        "price": 70,
+        "image": "meowth.png",
+        "description": "Meowth is a cute pokemon"
+    },
+
+    {
+        "name": "Psyduck",
+        "price": 70,
+        "image": "psyduck.png",
+        "description": "Psyduck is a cute pokemon"
+    },
+
+    {
+        "name": "Mankey",
+        "price": 70,
+        "image": "mankey.png",
+        "description": "Mankey is a cute pokemon"
+    },
+
+    {
+        "name": "Growlithe",
+        "price": 70,
+        "image": "growlithe.png",
+        "description": "Growlithe is a cute pokemon"
+    },
+
+    {
+        "name": "Poliwag",
+        "price": 70,
+        "image": "poliwag.png",
+        "description": "Poliwag is a cute pokemon"
+    },
+
+    {
+        "name": "Abra",
+        "price": 70,
+        "image": "abra.png",
+        "description": "Abra is a cute pokemon"
+    },
+
+    {
+        "name": "Machop",
+        "price": 70,
+        "image": "machop.png",
+        "description": "Machop is a cute pokemon"
+    },
+
+    {
+        "name": "Bellsprout",
+        "price": 70,
+        "image": "bellsprout.png",
+        "description": "Bellsprout is a cute pokemon"
+    },
+
+    {
+        "name": "Tentacool",
+        "price": 70,
+        "image": "tentacool.png",
+        "description": "Tentacool is a cute pokemon"
+    },
+
+    {
+        "name": "Geodude",
+        "price": 70,
+        "image": "geodude.png",
+        "description": "Geodude is a cute pokemon"
+    },
+
+    {
+        "name": "Onix",
+        "price": 70,
+        "image": "onix.png",
+        "description": "Onix is a cute pokemon"
+    },
+
+    {
+        "name": "Drowzee",
+        "price": 70,
+        "image": "drowzee.png",
+        "description": "Drowzee is a cute pokemon"
+    },
+
+    {
+        "name": "Krabby",
+        "price": 70,
+        "image": "krabby.png",
+        "description": "Krabby is a cute pokemon"
+    },
+
+    {
+        "name": "Chansey",
+        "price": 105,
+        "image": "chansey.png",
+        "description": "Chansey is a cute pokemon"
+    }
+]

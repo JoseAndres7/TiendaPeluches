@@ -1,0 +1,116 @@
+.bg-secondary {
+  background-color: black !important;
+}
+
+.nombre-pokemons {
+  font-size: 2rem;
+  font-weight: 700;
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.2);
+  border-radius: 2rem;
+}
+
+.nombre-pokemons:hover{
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.6);
+}
+
+.nombre-pokemons:active{
+  background-color: aliceblue !important;
+  color: black !important;
+}
+
+.copyright {
+  background-color: black;
+  margin-top: auto;
+}
+
+.bg-primary {
+  background-color: #ffde00 !important;
+  color: black !important;
+}
+
+.mas-vendidos {
+  width: 100%;
+  background-color: #ffde00 !important;
+}
+
+nav{
+  font-weight: 700;
+}
+
+.img-card{
+  height: 18vw;
+  object-fit: cover;
+}
+
+body{
+  background-color: rgb(27, 25, 25);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: white;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  border-radius: 90%;
+  height: 26rem;
+  width: 26rem;
+  margin-top: 5rem;
+}
+
+.card-2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  border-radius: 90%;
+  height: 26rem;
+  width: 26rem;
+  margin-top: 2rem;
+}
+
+.img-card {
+  margin-top: -0.5rem;
+  border-radius: 100%;
+  height: 26rem;
+}
+
+.subtitulo {
+  color: black;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.comentario{
+  display:flex;
+  justify-content: space-between;
+}
+
+.carousel-item {
+  height: 30rem;
+  width: 100%;
+}
+
+.vertodos {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1.1rem;
+}
+
+td, th{
+  color:white;
+}
+
+.nav-link:hover {
+
+  color: #ffde00 !important;
+
+}
