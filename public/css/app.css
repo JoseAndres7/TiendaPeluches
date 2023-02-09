@@ -110,7 +110,9 @@ td, th{
 }
 
 .nav-link:hover {
-
   color: #ffde00 !important;
+}
 
+.imgcart{
+  width: 5rem;
 }

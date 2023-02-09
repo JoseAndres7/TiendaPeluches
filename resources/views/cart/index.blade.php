@@ -11,7 +11,7 @@
     <table class="table table-bordered table-striped text-center">
       <thead>
         <tr>
-          <th scope="col">ID</th>
+          <th scope="col">Imagen</th>
           <th scope="col">Nombre</th>
           <th scope="col">Precio</th>
           <th scope="col">Cantidad</th>
@@ -19,11 +19,11 @@
       </thead>
       <tbody>
         @foreach ($viewData["products"] as $product)
-        <tr>
-          <td>{{ $product->getId() }}</td>
-          <td>{{ $product->getName() }}</td>
-          <td>${{ $product->getPrice() }}</td>
-          <td>{{ session('products')[$product->getId()] }}</td>
+        <tr class="carrito">
+          <td><img src="{{ asset('/img/'.$product->getImage()) }}" class="imgcart"></td>
+          <td class="cartcompra">{{ $product->getName() }}</td>
+          <td class="cartcompra">${{ $product->getPrice() }}</td>
+          <td class="cartcompra">{{ session('products')[$product->getId()] }}</td>
         </tr>
         @endforeach
       </tbody>
