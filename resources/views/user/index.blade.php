@@ -59,7 +59,7 @@
       </div>
       <input type="hidden" name="role" value="{{ $viewData['usuario']->getRole() }}">
       <input type="hidden" name="balance" value="{{ $viewData['usuario']->getBalance() }}">
-      <button type="submit" class="btn btn-primary">Editar</button>
+      <button type="submit" class="btn btn-primary editarUser">Editar</button>
     </form>
   </div>
 </div>
