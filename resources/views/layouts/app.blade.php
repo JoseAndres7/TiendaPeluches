@@ -20,6 +20,12 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
+          <?php
+            $rolAdmin = Auth::user()->rol; 
+            if($rolAdmin == 'admin'){
+              echo '<a class="nav-link active bg-secondary" href="'.route('admin.home.index').'">Admin</a>';
+            }
+          ?>
           <a class="nav-link active bg-secondary" href="{{ route('home.index') }}">Inicio</a>
           <a class="nav-link active bg-secondary" href="{{ route('product.index') }}">Productos</a>
           <a class="nav-link active bg-secondary" href="{{ route('cart.index') }}">Carrito</a>
