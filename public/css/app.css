@@ -122,3 +122,42 @@ td, th{
   height: 3rem;
   border-radius: 100%;
 }
+
+.formUser, .cuerpo-orders {
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #cacaca;
+}
+
+.col-form-label {
+  font-weight: bold;
+  color: white;
+}
+
+.form-control {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #cacaca;
+  padding: 10px;
+  background-color: #555;
+  color: white;
+}
+
+input[type="file"] {
+  background-color: #555;
+  padding: 10px;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  color: white;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 10px #cacaca;
+}

@@ -15,8 +15,7 @@
     </ul>
     @endif
 
-    <form method="POST" action="{{ route('user.update', ['id'=> $viewData['usuario']->getId()]) }}"
-      enctype="multipart/form-data">
+    <form class="formUser" method="POST" action="{{ route('user.update', ['id'=> $viewData['usuario']->getId()]) }}" enctype="multipart/form-data">
       @csrf
       @method('PUT')
       <div class="row">
@@ -34,7 +33,7 @@
           <div class="mb-3 row">
             <label class="col-lg-2 col-md-6 col-sm-12 col-form-label">Email:</label>
             <div class="col-lg-10 col-md-6 col-sm-12">
-              <input name="email" value="{{ $viewData['usuario']->getEmail() }}" type="text" class="form-control" readonly>
+              <input name="email" value="{{ $viewData['usuario']->getEmail() }}" type="text" class="form-control">
             </div>
           </div>
         </div>

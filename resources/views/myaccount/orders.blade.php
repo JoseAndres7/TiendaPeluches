@@ -8,7 +8,7 @@
   <div class="card-header">
     Pedido #{{ $order->getId() }}
   </div>
-  <div class="card-body">
+  <div class="card-body cuerpo-orders">
     <b>Fecha:</b> {{ $order->getCreatedAt() }}<br />
     <b>Total:</b> ${{ $order->getTotal() }}<br />
     <table class="table table-bordered table-striped text-center mt-3">
