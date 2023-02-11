@@ -3,28 +3,28 @@
         "name": "Pickachu",
         "price": 100,
         "image": "20230128200004_pikachu.png",
-        "description": "Pickachu is a cute pokemon"
+        "description": "Este peluche de Pikachu es un compañero suave y cómodo para todas las edades. Con su pelaje suave y esponjoso y su cara sonriente, este peluche es perfecto para abrazar y jugar. Basado en el personaje de la popular serie de anime Pokemon, este peluche mide aproximadamente 30 cm de altura y está hecho con materiales de alta calidad para garantizar su durabilidad. ¡Hazte con el tuyo hoy y lleva a casa a tu propio Pikachu!"
     },
 
     {
         "name": "Bulbasaur",
         "price": 105,
         "image": "20230128200258_bulbasaur.png",
-        "description": "Bulbasaur is a cute pokemon"
+        "description": "Este peluche de Bulbasaur es un compañero suave y acogedor para cualquier fan de Pokemon. Con su textura suave y detalles fieles al personaje, este peluche mide aproximadamente 25 cm de altura y es perfecto para abrazar y jugar. Hecho con materiales de alta calidad, este peluche es duradero y garantiza horas de diversión. ¡Lleva a casa a tu propio Bulbasaur hoy y agrégalo a tu colección de Pokemon!"
     },
 
     {
         "name": "Charmander",
         "price": 95,
         "image": "20230128200800_charmander.png",
-        "description": "Charmander is a cute pokemon"
+        "description": "Este peluche de Charmander es un compañero suave y adorable para todas las edades. Con su pelaje suave y detalles fieles al personaje, este peluche mide aproximadamente 20 cm de altura y es perfecto para abrazar y jugar. Hecho con materiales de alta calidad, este peluche es duradero y garantiza horas de diversión. ¡Lleva a casa a tu propio Charmander hoy y agrégalo a tu colección de Pokemon!"
     },
 
     {
         "name": "Squirtle",
         "price": 90,
         "image": "20230128201014_squirtle.png",
-        "description": "Squirtle is a cute pokemon"
+        "description": "Este peluche de Squirtle es un compañero suave y divertido para cualquier fan de Pokemon. Con su textura suave y detalles fieles al personaje, este peluche mide aproximadamente 25 cm de altura y es perfecto para abrazar y jugar. Hecho con materiales de alta calidad, este peluche es duradero y garantiza horas de diversión. ¡Lleva a casa a tu propio Squirtle hoy y agrégalo a tu colección de Pokemon!"
     },
 
     {
