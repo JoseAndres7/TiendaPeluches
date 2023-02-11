@@ -19,6 +19,9 @@ Route::get('/products', 'App\Http\Controllers\ProductController@index')->name("p
 Route::get('/products/paginacion', 'App\Http\Controllers\ProductController@paginacion')->name("product.paginacion");
 Route::get('/products/{id}', 'App\Http\Controllers\ProductController@show')->name("product.show");
 
+Route::get('/user-datos', 'App\Http\Controllers\UserController@index')->name("user.index");
+Route::put('/user/{id}/update', 'App\Http\Controllers\UserController@update')->name("user.update");
+
 
 Route::get('/cart', 'App\Http\Controllers\CartController@index')->name("cart.index");
 Route::get('/cart/delete', 'App\Http\Controllers\CartController@delete')->name("cart.delete");

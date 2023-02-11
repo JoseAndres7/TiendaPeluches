@@ -21,7 +21,7 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
           <?php
-            $rolAdmin = Auth::user()->role; 
+            $rolAdmin = Auth::user()->role ?? '';
             if($rolAdmin == 'admin'){
               echo '<a class="nav-link active bg-secondary" href="'.route('admin.home.index').'">Admin</a>';
             }
@@ -41,6 +41,22 @@
                onclick="document.getElementById('logout').submit();">Salir</a>
             @csrf
           </form>
+          <div>
+            <?php
+              if(Auth::user() != null){
+                if(Auth::user()->getImagen() !=null){
+                  $imgUser = '/img/'.Auth::user()->getImagen();
+                } else {
+                  $imgUser = '/img/undraw_profile.svg';
+                }
+              } else {
+                $imgUser = '/img/undraw_profile.svg';
+              }
+            ?>
+            <a href="{{ route('user.index') }}">
+              <img class="imagenUser" src="{{ asset($imgUser) }}" width="50px">
+            </a>
+          </div>
           @endguest
         </div>
       </div>

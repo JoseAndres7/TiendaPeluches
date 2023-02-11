@@ -40,7 +40,9 @@ class ProductController extends Controller
         $viewData["product"] = $product;
         $viewData["user"] = Auth::user() != null ? Auth::user()->getId() : null;
 
+        $viewData["item"] = [];
         if (Auth::user() != null) {
+
             $iduser = Auth::user()->getId();
             $viewData["orders"] = Order::all()->where('user_id', '=', $iduser);
 
@@ -53,8 +55,6 @@ class ProductController extends Controller
                     break;
                 }
             }
-        } else {
-            $viewData["item"] = null;
         }
         $viewData["comentUser"] = Comentario::all()->where('user_id', '=', $viewData["user"])->where('product_id', '=', $id);
         $viewData["comentarios"] = Comentario::all()->where('product_id', '=' , $id);

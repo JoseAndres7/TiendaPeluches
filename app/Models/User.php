@@ -49,6 +49,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'imagen',
         'balance',
     ];
 
@@ -109,6 +110,16 @@ class User extends Authenticatable
     public function setPassword($password)
     {
         $this->attributes['password'] = $password;
+    }
+
+    public function getImagen()
+    {
+        return $this->attributes['imagen'];
+    }
+
+    public function setImagen($imagen)
+    {
+        $this->attributes['imagen'] = $imagen;
     }
 
     public function getRole()

@@ -116,3 +116,9 @@ td, th{
 .imgcart{
   width: 5rem;
 }
+
+.imagenUser {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+}
