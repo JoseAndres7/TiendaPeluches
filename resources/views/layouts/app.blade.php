@@ -21,7 +21,7 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
           <?php
-            $rolAdmin = Auth::user()->rol; 
+            $rolAdmin = Auth::user()->role; 
             if($rolAdmin == 'admin'){
               echo '<a class="nav-link active bg-secondary" href="'.route('admin.home.index').'">Admin</a>';
             }
